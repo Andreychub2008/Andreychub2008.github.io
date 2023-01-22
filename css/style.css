@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+.body {
+    font-family: 'Inter', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+
+.header {
+    background-image: url(../images/bg.jpg);
+    padding: 9px 150px 0px;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.upheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.header_logo {
+    width: 148px;
+    height: 95px;
+}
+
+.navbar {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 450;
+    font-style: normal;
+
+}
+
+.navbar_item {
+    margin-left: 30px;
+    color: #fff;
+}
+
+.a {
+    text-decoration: none;
+    color: #fff;
+    padding: 3px 15px;
+}
+
+.active {
+    color: #ebc300;
+    background: #000;
+    border-radius: 10px;
+    padding: 3px 15px;
+}
+
+.navbar_item :hover {
+    background: #000;
+    border-radius: 10px;
+    padding: 3px 15px;
+    transition-duration: 0.7s;
+}
+
+.subheader_text {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+
+.middleblock {
+    width: 900;
+    height: 200px;
+    background-color: #000;
+    border-radius: 30px;
+    margin-bottom: -100px;
+    padding: 25px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mbutton {
+    background: #ebc300;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 17px 0 11px;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 5px;
+}
+
+.button_txt {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 7px;
+    font-style: normal;
+}
+
+.button_link {
+    text-decoration: none;
+    color: #000;
+}
+
+.stwrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.txtsection {
+    padding: 0 150px;
+    margin-top: 215px;
+    background-color: #fff;
+}
+
+.stpart {
+    width: 530px;
+    margin-bottom: 50px;
+}
+
+.stpart_title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.stpart_maintext {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.firstimg {
+    height: 510px;
+}
+
+.secondimg {
+    height: 550px;
+}
+
+.ndwrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
