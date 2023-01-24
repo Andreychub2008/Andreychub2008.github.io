@@ -16,8 +16,6 @@ li {
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
-
-
 }
 
 .header {
@@ -165,3 +163,219 @@ li {
     justify-content: space-between;
     align-items: center;
 }
+
+
+@media (max-width: 991.98px) {
+    .header {
+        padding: 7px 125px 0px;
+    }
+
+    .upheader {
+        margin-bottom: 40px;
+    }
+
+    .navbar {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+
+    .header_logo {
+        width: 123px;
+        height: 79px;
+    }
+
+    .navbar_item {
+        margin-left: 25px;
+    }
+
+    .subheader_text {
+        font-size: 34px;
+        margin-bottom: 34px;
+    }
+
+    .middleblock {
+        padding: 25px 60px;
+    }
+
+    .txtsection {
+        padding: 0 125px;
+        margin-top: 180px;
+    }
+
+    .stpart {
+        width: 440px;
+        margin-bottom: 40px;
+    }
+
+    .stpart_title {
+        font-size: 34px;
+        margin-bottom: 17px;
+    }
+
+    .stpart_maintext {
+        font-size: 17px;
+    }
+
+    .firstimg {
+        height: 405px;
+    }
+
+    .secondimg {
+        height: 400px;
+    }
+
+    .row {
+        padding: 0;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .header {
+        padding: 7px 70px 0px;
+    }
+
+    .upheader {
+        margin-bottom: 32px;
+    }
+
+    .navbar {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .active {
+        border-radius: 7px;
+        padding: 2px 10px;
+    }
+
+    .a {
+        padding: 2px 10px;
+    }
+
+    .navbar_item {
+        margin-left: 10px;
+    }
+
+    .subheader_text {
+        font-size: 28px;
+        margin-bottom: 28px;
+        font-weight: 600;
+    }
+
+    .middleblock {
+        padding: 20px 35px;
+        height: 150px;
+        margin-bottom: -75px;
+        border-radius: 25px;
+    }
+
+    .mbutton {
+        width: 110px;
+        height: 110px;
+        border-radius: 15px;
+        padding: 13px 0 8px;
+    }
+
+    .icon {
+        width: 55px;
+        height: 55px;
+    }
+
+    .button_txt {
+        font-size: 12px;
+        line-height: 6px;
+        font-weight: 600;
+    }
+
+    .txtsection {
+        padding: 0 100px;
+        margin-top: 125px;
+    }
+
+    .stpart {
+        width: 300px;
+        margin-bottom: 30px;
+    }
+
+    .stpart_title {
+        font-size: 26px;
+    }
+
+    .stpart_maintext {
+        font-size: 14px;
+    }
+
+    .firstimg {
+        height: 350px;
+    }
+
+    .secondimg {
+        height: 350px;
+    }
+
+    @media (max-width: 575.98px) {
+        .header {
+            padding: 5px 30px 0px;
+        }
+
+        .upheader {
+            margin-bottom: 20px;
+        }
+
+        .navbar {
+            font-size: 13px;
+            font-weight: 500;
+            margin-top: 10px;
+        }
+
+        .navbar_item {
+            margin-left: 5px;
+        }
+
+        .a {
+            padding: 2.5px 7px;
+        }
+
+        .header_logo {
+            width: 115px;
+            height: 70px;
+        }
+
+        .active {
+            border-radius: 5px;
+            padding: 2.5px 7px;
+        }
+
+        .subheader_text {
+            font-size: 20px;
+            margin-bottom: 24px;
+            font-weight: 600;
+        }
+
+        .middleblock {
+            padding: 20px 35px;
+            width: 492px;
+
+        }
+
+        .txtsection {
+            padding: 0 30px;
+            margin-top: 120px;
+        }
+
+        .stpart {
+            width: 270px;
+            margin-bottom: 30px;
+        }
+
+
+
+
+    }
+
+
+
+
+}
+
